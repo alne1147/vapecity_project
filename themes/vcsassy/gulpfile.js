@@ -63,7 +63,7 @@ gulp.task('drush:cc', function () {
 
 gulp.task('watch', function() {
   browserSync({
-    proxy: "vapecity:8888"
+    proxy: "vcvProject:8888"
   });
 
   // watch scss, js, and tpl files and clear drupal theme cache on change, reload browsers
