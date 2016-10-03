@@ -28,3 +28,4 @@ regions:
 libraries:
   - 'vcsassy/global-styling'
   - 'vcsassy/bootstrap-scripts'
+  - 'vcsassy/fonts'

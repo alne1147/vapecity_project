@@ -31,10 +31,20 @@ body {
     background-color: #464646;
     
     color:white;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .main-container
 {
-  background: rgba(0, 0, 0, .75);
+  
+  background-color:rgba(17, 17, 17, 0.63);
   padding-bottom:20px;
+  border-radius: 10px;
+}
+
+#header-text
+{
+	font-size: 20px;
+	height:100%;
+	min-height: 100%;
 }
