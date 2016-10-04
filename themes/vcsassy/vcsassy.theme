@@ -5,3 +5,9 @@
  *
  * Place your custom PHP code in this file.
  */
+
+// function vcsassy_preprocess_block($variables) {
+//   dpm($variables);
+//
+// }
+

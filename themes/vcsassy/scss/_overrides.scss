@@ -74,17 +74,33 @@ p:last-child,
     margin-top: 0;
   }
 }
-.table-striped > tbody > tr:nth-of-type(2n+1) {
-    background-color: #000000;
-}
-.table-striped > tbody > tr:hover
+
+.main-container
 {
-	background-color:rgba(0, 0, 0, 0.91);
+  
+  background-color:rgba(17, 17, 17, 0.63);
+  padding-bottom:20px;
+  border-radius: 10px;
 }
 
-.table-striped > tbody
+#header-text
 {
-	font-size: 13px;
-	paddingn-bottom:20px !important;
-	
+	font-size: 20px;
+	height:100%;
+	min-height: 100%;
+}
+.view-e-liquids-list .row
+{
+  padding:10px;
+  background-color:#3a3a3a;
+  margin:0px;
+    border-radius: 10px;
+}
+
+.view-e-liquids-list
+{
+  margin-bottom:10px;
+  padding:10px;
+  background-color:#7f7e7f;
+  border-radius: 10px;
 }
