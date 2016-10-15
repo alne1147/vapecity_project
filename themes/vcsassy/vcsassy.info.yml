@@ -19,11 +19,12 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  footer_bottom_left: 'Footer Bottom Left'
+  footer_bottom_right: 'Footer Bottom Right'
   footer_first: 'Footer first'
   footer_second: 'Footer second'
   footer_third: 'Footer third'
-  footer_bottom_left: 'Footer Bottom Left'
-  footer_bottom_right: 'Footer Bottom Right'
+
 
 libraries:
   - 'vcsassy/global-styling'

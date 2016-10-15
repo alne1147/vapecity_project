@@ -31,10 +31,7 @@ ol, ul {
 .page-header {
   margin-top: 20px;
   margin-bottom: 30px;
-  padding:10px;
-  border-bottom: 0px solid #666;
-  background-color:#5c3e69;
-  border-radius: 10px;
+
 }
 
 // Footer.
@@ -43,6 +40,8 @@ ol, ul {
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5;
+  background-color:black;
+  color:white;
 }
 
 // Paragraphs.
@@ -75,12 +74,37 @@ p:last-child,
   }
 }
 
+
+body {
+  background: #000 url(../images/revertedback.png) repeat scroll top left;
+  /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+  
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+    font-family: 'Oxygen', sans-serif;
+}
+
 .main-container
 {
   
-  background-color:rgba(17, 17, 17, 0.63);
+  background-color:rgba(255, 255, 255, 0.93);
   padding-bottom:20px;
   border-radius: 10px;
+  border-color:rgb(15,15,15);
+  border-style: solid 2px;
 }
 
 #header-text
@@ -89,18 +113,35 @@ p:last-child,
 	height:100%;
 	min-height: 100%;
 }
+
+.view-hardware .row,
 .view-e-liquids-list .row
 {
   padding:10px;
-  background-color:#3a3a3a;
+
   margin:0px 0 10px 0;
-    border-radius: 10px;
+
 }
 
 .view-e-liquids-list
 {
   margin-bottom:10px;
   padding:10px;
-  background-color:#7f7e7f;
-  border-radius: 10px;
+ 
+}
+
+body h1
+ {
+  display: block;
+  background: url(../images/tank.svg) 10px 5px no-repeat #fff;
+  background-size: 50px 50px;
+  padding: 10px 80px;
+  color:slategray;
+}
+.prices
+{
+  border-radius:5px;
+  background-color:#33303F;
+  color:white;
+  padding:12px;
 }

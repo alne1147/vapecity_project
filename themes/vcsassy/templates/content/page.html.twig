@@ -172,10 +172,17 @@
   </div>
 {% endblock %}
 
-{% if page.footer %}
   {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
+    <footer class="footer col-md-12 {{ container }}" role="contentinfo">
+        <div class="col-md-3 col-md-offset-1">
+        {{ page.footer_first }}
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+        {{ page.footer_second }}
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+        {{ page.footer_third }}
+        </div>
       {{ page.footer }}
     </footer>
   {% endblock %}
-{% endif %}
