@@ -145,3 +145,24 @@ body h1
   color:white;
   padding:12px;
 }
+
+.hours
+{
+
+  border-radius:5px;
+  color:#fef0bf;
+  background-color:#3f3c4f;
+  
+  ul {
+
+    font-size:17px;
+    margin-top:5px;
+  }
+  .clock
+  {
+  background: url(../images/clock.svg) 0px 0px no-repeat #3f3c4f;
+  display:block;
+  height:50px;	 
+  margin-top:10px; 
+  }
+}
