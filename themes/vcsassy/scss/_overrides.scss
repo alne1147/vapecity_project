@@ -133,9 +133,9 @@ body {
 body h1
  {
   display: block;
-  background: url(../images/tank.svg) 10px 5px no-repeat #fff;
-  background-size: 50px 50px;
-  padding: 10px 80px;
+  background: url(../images/hardware-icon.svg) 10px 5px no-repeat #fff;
+  background-size: 50px 40px;
+  padding: 10px 60px;
   color:slategray;
 }
 .prices
@@ -148,21 +148,107 @@ body h1
 
 .hours
 {
-
-  border-radius:5px;
-  color:#fef0bf;
-  background-color:#3f3c4f;
+	
+margin-top:10px;
+margin-bottom: 10px;
+  color:#fff;
+  background-color:#016094;
+    border-radius: 5px;
+  
+  
+  h2 {
+	  
+  }
   
   ul {
 
-    font-size:17px;
+    font-size:16px;
     margin-top:5px;
   }
-  .clock
-  {
-  background: url(../images/clock.svg) 0px 0px no-repeat #3f3c4f;
+
+}
+.glyphicon-time:before {
+  margin-right: 10px;
+}
+
+.phone
+{
+	font-size:44px;
+	p {
+		font-size:18px;
+	}
+}
+.header-row
+{
+	border-bottom:2px solid #efecec;
+	margin-bottom:5px;
+}
+.logo
+{
+
+	  background: url(../images/justlogo.svg) 0px 0px no-repeat white;
   display:block;
-  height:50px;	 
-  margin-top:10px; 
-  }
+  height:180px;	 
+  margin-top:10px;
+}
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    .region-after-content 
+    {
+      @include make-row();
+      .block {
+        @include make-md-column(6);
+      }
+    }
+.lower-logo
+{
+
+  background: url(../images/title.svg) 0px 0px no-repeat black;
+  display:block;
+  height:140px;	
+}
+
+.footer p
+    {
+    text-align: center;
+    margin-top:0px;
+    padding-top:0px;
+    }
+@media only screen and (max-width:480px) {
+body.path-frontpage .img-responsive
+    {
+ display: none !important;
+    }
+}
+
+#block-contactblock
+    {
+        #edit-preview {
+           display:none; 
+        }
+    
+        p {
+            padding:6px;
+            background-color: #13fcef;
+            margin-bottom:10px;
+            color: #3c3f41;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+    }
+h5 span {
+    font-size: 10px;
 }

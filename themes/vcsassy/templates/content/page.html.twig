@@ -99,7 +99,7 @@
       {# Header #}
       {% if page.header %}
         {% block header %}
-          <div class="col-sm-12" role="heading">
+          <div class="col-sm-12 header-row" role="heading">
             {{ page.header }}
           </div>
         {% endblock %}
@@ -158,6 +158,12 @@
           <a id="main-content"></a>
           {{ page.content }}
         {% endblock %}
+        
+          {# After Content #}
+        {% block after_content %}
+          <a id="after_content"></a>
+          {{ page.after_content }}
+        {% endblock %}
       </section>
 
       {# Sidebar Second #}
@@ -181,6 +187,10 @@
         {{ page.footer_second }}
         </div>
         <div class="col-md-3 col-md-offset-1">
+            <div class="lower-logo">
+</div>
+           <p> 500 8th St, Dacono, CO 80514<br/>
+(720) 638-4618</p>
         {{ page.footer_third }}
         </div>
       {{ page.footer }}
